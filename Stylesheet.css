@@ -1,0 +1,68 @@
+#page {
+    z-index: 1;
+    min-height: 438px;
+    border-color: #000000;
+    background-color: #FFFFFF;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    padding-bottom: 62px;
+    width: 100%;
+    max-width: 960px;
+}
+
+
+#woord1 {
+        color: Red;
+        font-size: 17pt;
+        font-family: Arial;
+        src: url();
+        }
+#woord2 {
+        color: Blue;
+        font-size: 17pt;
+        font-family: Arial;
+        src: url();
+        }
+#index {
+        background-color:transparent;
+        line-height:22px;
+        text-align:left;
+        margin-left: calc(2%);
+        margin-top: calc(1%);
+        font-size:18px;
+        font-family:Helvetica,Helvetica Neue, Arial, sans-serif;
+        }
+
+#about   {
+        max-width: calc(70%);
+        height: auto;
+        margin-left: calc(1%);
+        margin-top: calc(2%);
+        z-index: 2
+              }
+
+#img1   {
+
+        max-width: calc(50%);
+        height: auto;
+        margin-left: calc(10%);
+        margin-top: calc(5%);
+        z-index: 2
+              }
+#woord3 {
+        left: calc(8%);
+        top: calc(4%);
+        color: Black;
+        font-size: 13pt;
+        font-family: Times;
+        src: url();
+
+        }
+
+#img2   {
+        max-width: calc(50%);
+        height: auto;
+        margin-left: calc(1%);
+        margin-top: calc(8%);
+        z-index: 2
+              }
