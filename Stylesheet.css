@@ -1,15 +1,14 @@
-#page {
-    z-index: 1;
-    min-height: 438px;
-    border-color: #000000;
-    background-color: #FFFFFF;
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    padding-bottom: 62px;
-    width: 100%;
-    max-width: 960px;
-}
+body { background-color: white;
+      }
 
+header {
+          width:100%;
+    position: fixed;
+    top: 0px;
+    background: lightgrey;
+    z-index: 999;
+    box-sizing: border-box;
+        }
 
 #woord1 {
         color: Red;
@@ -17,12 +16,35 @@
         font-family: Arial;
         src: url();
         }
+
 #woord2 {
-        color: Blue;
-        font-size: 17pt;
+        color: black;
+        font-size: 20pt;
         font-family: Arial;
-        src: url();
+        margin-left: 2%;
+        margin-top: 2%;
+        z-index: 1
         }
+
+
+#over {
+        color: Black;
+        font-size: 13pt;
+        font-family: Helvetica;
+        margin-left: 2%;
+        margin-top: 2%;
+        z-index: 1
+        }
+
+Basic-wall {
+          width:100%;
+    position: fixed;
+    top: 0px;
+    background: lightgrey;
+    z-index: 999;
+    box-sizing: border-box;
+        }
+
 #index {
         background-color:transparent;
         line-height:22px;
@@ -34,39 +56,63 @@
         }
 
 #about   {
-        max-width: calc(70%);
+        max-width: 70%;
         height: auto;
-        margin-left: calc(1%);
-        margin-top: calc(2%);
+        margin-left: 1%;
+        margin-top: 2%;
         z-index: 2
-              }
+        }
+
+
+
+#beschrijving {
+        margin-left: 36%;
+        margin-top:calc(-46%) ;
+        color: Black;
+        font-size: 10pt;
+        font-family: sans-serif;
+        src: url();
+        }
+
 
 #img1   {
 
-        max-width: calc(50%);
+        max-width: 57%;
         height: auto;
-        margin-left: calc(10%);
-        margin-top: calc(5%);
+        margin-left: 1%;
+        margin-top: 5%;
         z-index: 2
-              }
+        border: none;
+      }
 
-#woord3 {
-        left: calc(8%);
-        top: calc(4%);
-        color: Black;
-        font-size: 13pt;
-        font-family: Times;
-        src: url();
-
-        }
 
 #img2   {
-        max-width: calc(50%);
+        max-width:57% ;
         height: auto;
-        margin-left: calc(1%);
-        margin-top: calc(8%);
+        margin-left: 1%;
+        margin-top: 35%;
         z-index: 2
-              }
+        }
+
+#img3   {
+        max-width: 80%;
+        height: auto;
+        margin-left:1%;
+        margin-top: 8%;
+        z-index: 2
+        }
+
+#img4   {
+        max-width: 60%;
+        height: auto;
+        margin-left:1%;
+        margin-top: 10%;
+        z-index: 2
+        }
+
+
+
+
 
 .clock {
   width: 260px;
