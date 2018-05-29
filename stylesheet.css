@@ -1,0 +1,329 @@
+body {
+  margin: 0%;
+  background-color: White;
+
+}
+
+.Copyright  {
+           position: absolute;
+           color: lightgrey;
+           font-size: 10pt;
+           text-decoration: none;
+           font-family: helvetica;
+          }
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#overflow {
+    background: White;
+    color: black;
+    padding: 17px;
+    width: 18%;
+    height: 51%;
+    margin-left: 79% ;
+    margin-top: 8%;
+    overflow: scroll;
+    border: 3px solid none;
+    position: fixed;
+    font-family: helvetica,arial, sans-serif;
+    font-size: 17pt;
+    }
+
+#contact  {
+           z-index: 3;
+           position: fixed;
+           margin-left: 80%;
+           margin-top: 3%;
+           color: white;
+           font-size: 15pt;
+           text-decoration: none;
+           font-family: Mono;
+           src: url(endroit_ding_2.otf);
+          }
+          @font-face {font-family: Mono;
+          src: url(endroit_ding_2.otf);
+         }
+
+         a:link {
+        text-decoration: none;
+        }
+
+#introtitle  {
+           z-index: 2;
+           position: absolute;
+           left: calc(10% );
+           top: calc(39%);
+           color: white;
+           font-size: 15pt;
+           font-family: Mono;
+           src: url(endroit_ding_2.otf);
+          }
+          @font-face {font-family: Mono;
+          src: url(endroit_ding_2.otf);
+         }
+
+
+#intro  {
+           z-index: 2;
+           position: absolute;
+           max-width: 10%;
+           left: calc(5% );
+           top: calc(48%);
+           letter-spacing: -5px;
+           font-size: 13pt;
+           font-family: Mono;
+           src: url(endroit_ding_2.otf);
+          }
+          @font-face {font-family: Mono;
+          src: url(endroit_ding_2.otf);
+         }
+
+
+
+
+  #para    {
+          z-index: 1;
+          position: absolute;
+          max-width: calc(50%);
+          height: calc(200%);
+          left: calc(46%);
+          top: calc(20%);
+          background-color: white;
+          letter-spacing: -3px;
+          font-size: 12pt;
+          font-family: Mono;
+          src: url(endroit_ding_2.otf);
+          }
+          @font-face {font-family: Mono;
+          src: url(endroit_ding_2.otf);
+          }
+
+
+#Guy    {
+        z-index: 3;
+        position: fixed;
+        max-width: 90px;
+        height: 90px;
+        font-size: 50px;
+        left: calc(10%);
+        top: calc(4%);
+        font-family: Mono;
+        src: url(endroit_ding_2.otf);
+        }
+          @font-face {font-family: Mono;
+          src: url(endroit_book_mono_chasse_850_custom.otf);
+         }
+
+
+
+#Cointet    {
+              z-index: 3;
+              position: fixed;
+              max-width: 90px;
+              height: 90px;
+              font-size: 50px;
+              left: calc(60%);
+              top: calc(4%);
+              font-family: Mono;
+              src: url(endroit_ding_2.otf);
+              }
+              @font-face {font-family: Mono;
+              src: url(endroit_book_mono_chasse_850_custom.otf);
+              }
+
+#Bijschrift1   {
+              z-index: 2;
+              position: absolute;
+              font-size: 9pt;
+              left: 9%;
+              margin-top: 51%;
+              color: green;
+              font-family: helvetica, arial, sans-serif;
+              }
+
+#img1   {
+              position: absolute;
+              width: 55%;
+              height: auto;
+              margin-left: 6%;
+              margin-top: 5%;
+              z-index: 2
+              }
+
+#img2   {
+              position: absolute;
+              width: 83%;
+              height: auto;
+              margin-left: 4%;
+              margin-top: 40%;
+              z-index: 2
+              }
+
+#Bijschrift2  {
+              z-index: 2;
+              position: absolute;
+              font-size: 10pt;
+              left: 7%;
+              margin-top: 120%;
+              color: #fa8072;
+              font-family: helvetica,arial, sans-serif;
+              }
+
+#img3   {
+              position: absolute;
+              width: 83%;
+              height: auto;
+              margin-left: 4%;
+              margin-top: 77%;
+              z-index: 2
+              }
+#Bijschrift3  {
+              z-index: 2;
+              position: absolute;
+              font-size: 10pt;
+              left: 7%;
+              margin-top: 188%;
+              color: black;
+              font-family: helvetica,arial, sans-serif;
+              }
+
+#img4   {
+              position: absolute;
+              width: 83%;
+              height: auto;
+              margin-left: 4%;
+              margin-top: 117%;
+              z-index: 2
+              }
+
+#Bijschrift4  {
+              z-index: 2;
+              position: absolute;
+              font-size: 10pt;
+              left: 7%;
+              margin-top: 261%;
+              color: #6276f1;
+              font-family: helvetica,arial, sans-serif;
+              }
+
+#img5  {
+              position: absolute;
+              width: 84%;
+              height: auto;
+              margin-left: 4%;
+              margin-top: 157%;
+              z-index: 2
+              }
+
+#Bijschrift5  {
+              z-index: 2;
+              position: absolute;
+              font-size: 10pt;
+              left: 7%;
+              margin-top: 337%;
+              color: #8b8b8b;
+              font-family: helvetica,arial, sans-serif;
+              }
+
+#img6  {
+              position: absolute;
+              width: 61%;
+              height: auto;
+              margin-left: 4%;
+              margin-top: 225%;
+              z-index: 2
+              }
+
+#vijschrift6  {
+              z-index: 2;
+              position: absolute;
+              font-size: 10pt;
+              left: 7%;
+              margin-top: 417%;
+              color: red;
+              font-family: helvetica,arial, sans-serif;
+              }
+
+#img7   {
+              position: absolute;
+              width: 84%;
+              height: auto;
+              margin-left: 4%;
+              margin-top: 235%;
+              z-index: 2
+              }
+
+#Bijschrift7  {
+              z-index: 2;
+              position: absolute;
+              font-size: 10pt;
+              left: 7%;
+              margin-top: 477%;
+              color: #50EBEC;
+              font-family: helvetica,arial, sans-serif;
+              }
+
+
+#img8   {
+              position: absolute;
+              width: 84%;
+              height: auto;
+              margin-left: 4%;
+              margin-top: 267%;
+              z-index: 2
+              }
+
+#Bijschrift8  {
+              z-index: 2;
+              position: absolute;
+              font-size: 10pt;
+              left: 7%;
+              margin-top: 519%;
+              color: Violet;
+              font-family: helvetica,arial, sans-serif;
+              }
+
+#img9   {
+              position: absolute;
+              width: 54%;
+              height: auto;
+              margin-left: 5%;
+              margin-top: 347%;
+              z-index: 2
+              }
+
+#Bijschrift9  {
+              z-index: 2;
+              position: absolute;
+              font-size: 10pt;
+              left: 7%;
+              margin-top: 576%;
+              color: Indigo    ;
+              font-family: helvetica,arial, sans-serif;
+              }
+
+#quote  {
+              position: fixed;
+              color: Black;
+              transform: rotate(-90deg);
+              left: -10%;
+              top: 50%;
+              font-size: 12px;
+              font-family: Mono;
+              src: url(endroit_ding_2.otf);
+              }
+              @font-face {font-family: Mono;
+              src: url(endroit_book_mono_chasse_850_custom.otf);
+              }
+#arrow {
+              z-index: 2;
+
+              max-width: 60%;
+              height: auto;
+              margin-top: 51%);
+              margin-left: 50%;
+              transform: rotate(-90deg);
+              }
