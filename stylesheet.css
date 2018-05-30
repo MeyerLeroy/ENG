@@ -11,11 +11,7 @@ body {
            text-decoration: none;
            font-family: helvetica;
           }
-a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-}
+
 
 #overflow {
     background: White;
